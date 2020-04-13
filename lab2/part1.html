@@ -25,10 +25,26 @@
             scene.add(cube);
             camera.position.z = 5; //this moves the camera towards the viewer
             //cube2
-
+            var geometry2 = new THREE.BoxGeometry();
+            var material2 = new THREE.MeshBasicMaterial( {color: 0xFF0000} );
+     	    var cube2 = new THREE.Mesh(geometry2, material2);
+            scene.add(cube2);
+            cube2.position.set(3,2,0);
+            camera.position.z = 5; //this moves the camera towards the viewer
+            //cube3
+            var geometry3 = new THREE.BoxGeometry();
+            var material3 = new THREE.MeshBasicMaterial( {color: 0x00FFFF} );
+     	    var cube3 = new THREE.Mesh(geometry3, material3);
+            scene.add(cube3);
+            cube3.position.set(1,-2,0);
+            camera.position.z = 5; //this moves the camera towards the viewer
             function animate() {
                 geometry.rotateX(0.01);
                 geometry.rotateY(0.01);
+                geometry2.rotateX(0.06);
+                geometry2.rotateX(0.02);
+                geometry3.rotateY(0.02);
+                geometry3.scale( 1, 0.02, 1 );
                 requestAnimationFrame(animate);
                 renderer.render(scene, camera);
             }
