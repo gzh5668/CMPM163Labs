@@ -29,4 +29,4 @@ Lab2:
 
     screenshot: 
 
-   ![](images/part.jpg)
+    ![](images/part.jpg)
