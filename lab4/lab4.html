@@ -34,6 +34,7 @@
         // texture and normMap for 3rd cube
         var texture2 = THREE.ImageUtils.loadTexture("160.jpg");
         var normMap2 = THREE.ImageUtils.loadTexture("173_norm.jpg");
+
         var material = new THREE.MeshPhongMaterial({ map: texture, normalMap: normMap });
         var cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
@@ -73,8 +74,28 @@
                     precision: "mediump"
                 });
                 mesh1 = new THREE.Mesh(geometry1, material1);
+                mesh1.position.x = -2;
                 mesh1.position.y = 2;
                 scene.add(mesh1);
+            }
+
+            var geometry5, material5, mesh5;
+            if (count == 3) {
+                var uniforms = {
+                    texture3: {
+                        type: "t", value: THREE.ImageUtils.loadTexture("176.jpg")
+                    }
+                };
+                geometry5 = new THREE.BoxGeometry(1, 1, 1);
+                material5 = new THREE.ShaderMaterial({
+                    uniforms: uniforms,
+                    fragmentShader: fshader2,
+                    vertexShader: vshader,
+                    precision: "mediump"
+                });
+                mesh5 = new THREE.Mesh(geometry5, material5);
+                mesh5.position.y = 2;
+                scene.add(mesh5);
             }
         }
 
@@ -119,6 +140,23 @@
                 console.error('An error happened');
             });
 
+        // load myFragmentShader
+        loader.load('shaders/myFragmentShader.frag',
+            // onLoad callback
+            function (data) {
+                console.log(data); // output the text to the console
+                fshader2 = data;
+                count += 1;
+                addTextureShaderCube(); // we will write this method
+            },
+            // onProgress callback
+            function (xhr) {
+                console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+            },
+            // onError callback
+            function (err) {
+                console.error('An error happened');
+            });
 
         var delta = -1;
 
