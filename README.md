@@ -8,7 +8,7 @@ Lab4:
        cube5: followed lab4 instructions. Used texture 176 and tiled it into a 2x2 grid.
     2ed row(left to right):
        cube1 & 2: followed lab4 instructions.
-       cube3: used the same method as cube2, except I mismatched the texture(160) and normal(173_norm) map using three.js's built-in functionality.
+       cube3: used the same method as cube2, except I mismatched the texture(160) and normal map(173_norm) using three.js's built-in functionality.
 
     Answers:
        a. x = u * 8
