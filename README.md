@@ -1,4 +1,12 @@
 # CMPM163Labs
+Lab6:
+
+    screenshot: 
+   ![](images/lab6.1.jpg)
+   
+    link to my project: https://www.shadertoy.com/view/tssfWf
+    link to something cool: https://www.shadertoy.com/view/3slcWr
+    
 Lab5:
 
     lab5a: https://drive.google.com/file/d/1AN5gCH0EdDHZebMfZnMQ4y8q96xQdKp0/view?usp=sharing
