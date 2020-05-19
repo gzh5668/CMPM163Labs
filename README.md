@@ -2,6 +2,8 @@
 Lab7:
 
     All screenshots & videos: https://drive.google.com/drive/folders/11oNZFOJ8AGWSX2PpAAt5TxoD4pcJah_n?usp=sharing
+    
+    I didn't try to find my partner. (I finished it up too late & we are not in the same timezone)
 Lab6:
 
     screenshot: 
