@@ -1,4 +1,7 @@
 # CMPM163Labs
+Lab7:
+
+    All screenshots & videos: https://drive.google.com/drive/folders/11oNZFOJ8AGWSX2PpAAt5TxoD4pcJah_n?usp=sharing
 Lab6:
 
     screenshot: 
