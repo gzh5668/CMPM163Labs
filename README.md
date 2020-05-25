@@ -1,4 +1,10 @@
 # CMPM163Labs
+Lab8:
+
+    Inspirational image: https://drive.google.com/file/d/1I6KEanSMf5burTD9S78z1TyPbN_8RBUW/view?usp=sharing
+    Screenshot: https://drive.google.com/file/d/1RqTnL40Zr0Yqf5euTMEE1A3UeYpK3dlA/view?usp=sharing
+    Instead of using the light, I used a colored background to bring out the outline of the city.
+    
 Lab7:
 
     All screenshots & videos: https://drive.google.com/drive/folders/11oNZFOJ8AGWSX2PpAAt5TxoD4pcJah_n?usp=sharing
